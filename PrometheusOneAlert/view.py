@@ -1,6 +1,6 @@
 #coding=utf-8
-from django.http import HttpResponse,JsonResponse
-import json,simplejson,hashlib,os,requests
+from django.http import JsonResponse
+import json,hashlib,os,requests
 # import logging
 def encrpyt_string(str):
     md = hashlib.md5()

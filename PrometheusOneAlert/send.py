@@ -31,7 +31,7 @@ import  requests
 #  }]
 #  }
 content={
-  "status": "resolved",
+  "status": "firing",
   "groupLabels": {},
   "groupKey": "{}:{}",
   "commonAnnotations": {
@@ -62,8 +62,8 @@ content={
     "alertname": "ExampleAlert"
   }
 }
-resolved = {
-  "status": "resolved",
+content = {
+  "status": "firing",
   "groupLabels": {},
   "groupKey": "{}:{}",
   "commonAnnotations": {
@@ -71,7 +71,7 @@ resolved = {
   },
   "alerts": [
     {
-      "status": "resolved",
+      "status": "firing",
       "labels": {
         "prometheus": "monitoring/k8s",
         "severity": "warning",
@@ -99,6 +99,6 @@ url = "http://api.onealert.com/alert/api/event"
 headers = {'Content-Type': 'application/json;charset=UTF-8'}
 #res = requests.request("post","http://192.168.1.106/",json=content,headers=headers)
 # res = requests.request("post",url,json=content,headers=headers)
-res=requests.post('http://192.168.1.106/',json=content)
+res=requests.post('http://192.168.1.211:10000/',json=content)
 print(res.status_code)
 print(res.text)
