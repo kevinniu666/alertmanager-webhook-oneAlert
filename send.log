@@ -821,3 +821,62 @@ SyntaxError: invalid syntax
 2019-03-01 13:40:15,220 [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
 2019-03-01 13:40:39,404 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
 2019-03-01 13:40:39,424 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:59:55,338 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:59:55,359 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 14:04:47,167 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 14:04:47,190 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 14:10:32,002 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 14:10:32,023 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 14:15:09,019 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 14:15:09,039 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 14:33:16,559 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 14:33:16,586 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 14:33:21,671 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 14, in send_alert
+    app = os.environ['APPLICATION_KEY']
+  File "D:\Applications\Python27\lib\os.py", line 425, in __getitem__
+    return self.data[key.upper()]
+KeyError: 'APPLICATION_KEY'
+2019-03-01 14:46:50,190 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 14:46:50,210 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 14:47:03,161 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 14, in send_alert
+    app = os.environ['APPLICATION_KEY']
+  File "D:\Applications\Python27\lib\os.py", line 425, in __getitem__
+    return self.data[key.upper()]
+KeyError: 'APPLICATION_KEY'
+2019-03-01 14:47:48,296 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 14:47:48,299 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 14:48:08,198 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 14, in send_alert
+    app = os.environ.get['APPLICATION_KEY']
+TypeError: 'instancemethod' object has no attribute '__getitem__'
+2019-03-01 14:48:22,951 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 14:48:22,956 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 14:48:27,239 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 14, in send_alert
+    app = os.environ.get['APPLICATION_KEY']
+TypeError: 'instancemethod' object has no attribute '__getitem__'
+2019-03-01 14:49:14,279 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 14:49:14,302 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 14:49:21,757 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 14, in send_alert
+    app = os.environ['APPLICATION_KEY']
+  File "D:\Applications\Python27\lib\os.py", line 425, in __getitem__
+    return self.data[key.upper()]
+KeyError: 'APPLICATION_KEY'
