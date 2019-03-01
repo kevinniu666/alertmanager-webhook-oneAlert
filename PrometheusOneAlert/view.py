@@ -1,5 +1,5 @@
 #coding=utf-8
-from django.http import JsonResponse
+from django.http import HttpResponse,JsonResponse
 import json,hashlib,os,requests
 # import logging
 def encrpyt_string(str):
@@ -54,3 +54,5 @@ def send_alert(request):
     print '-------------Response from oneAlert----------\n'
     print(res.text)
     return JsonResponse(res.text,safe=False)
+def healthz(request):
+    return HttpResponse("success")

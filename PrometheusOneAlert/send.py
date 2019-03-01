@@ -63,7 +63,7 @@ content={
   }
 }
 content = {
-  "status": "firing",
+  "status": "resloved",
   "groupLabels": {},
   "groupKey": "{}:{}",
   "commonAnnotations": {
@@ -71,7 +71,7 @@ content = {
   },
   "alerts": [
     {
-      "status": "firing",
+      "status": "resloved",
       "labels": {
         "prometheus": "monitoring/k8s",
         "severity": "warning",
