@@ -1,0 +1,66 @@
+#firing sample
+{
+  "status": "firing",
+  "groupLabels": {},
+  "groupKey": "{}:{}",
+  "commonAnnotations": {
+    "description": "Test Prometheus / isn't working."
+  },
+  "alerts": [
+    {
+      "status": "firing",
+      "labels": {
+        "prometheus": "monitoring/k8s",
+        "severity": "warning",
+        "alertname": "ExampleAlert"
+      },
+      "endsAt": "0001-01-01T00:00:00Z",
+      "generatorURL": "http://prometheus-k8s-0:9090/graph?g0.expr=vector%281%29&g0.tab=1",
+      "startsAt": "2019-03-01T02:16:55.528170792Z",
+      "annotations": {
+        "description": "Test Prometheus / isn't working."
+      }
+    }
+  ],
+  "version": "4",
+  "receiver": "onealert",
+  "externalURL": "http://alertmanager-main-0:9093",
+  "commonLabels": {
+    "prometheus": "monitoring/k8s",
+    "severity": "warning",
+    "alertname": "ExampleAlert"
+  }
+}
+#resolve sample
+{
+  "status": "resolved",
+  "groupLabels": {},
+  "groupKey": "{}:{}",
+  "commonAnnotations": {
+    "description": "Test Prometheus / isn't working."
+  },
+  "alerts": [
+    {
+      "status": "resolved",
+      "labels": {
+        "prometheus": "monitoring/k8s",
+        "severity": "warning",
+        "alertname": "ExampleAlert"
+      },
+      "endsAt": "2019-03-01T03:01:55.528170792Z",
+      "generatorURL": "http://prometheus-k8s-1:9090/graph?g0.expr=vector%280%29&g0.tab=1",
+      "startsAt": "2019-03-01T02:16:55.528170792Z",
+      "annotations": {
+        "description": "Test Prometheus / isn't working."
+      }
+    }
+  ],
+  "version": "4",
+  "receiver": "onealert",
+  "externalURL": "http://alertmanager-main-0:9093",
+  "commonLabels": {
+    "prometheus": "monitoring/k8s",
+    "severity": "warning",
+    "alertname": "ExampleAlert"
+  }
+}
