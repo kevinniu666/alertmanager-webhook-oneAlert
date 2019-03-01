@@ -1,0 +1,823 @@
+2019-03-01 13:10:04,960 [django.db.backends:89] [utils:execute] [DEBUG]- (0.007) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:10:05,017 [django.db.backends:89] [utils:execute] [DEBUG]- (0.004) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:10:15,730 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:15,730 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:16,164 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:16,164 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:17,223 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:17,234 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:17,874 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:18,374 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:19,006 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:19,992 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:21,743 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:22,125 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:22,371 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:22,605 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:23,125 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:24,036 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:25,296 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:27,897 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:27,990 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:28,627 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:31,903 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:31,931 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:32,615 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:35,467 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:42,345 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:44,342 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:51,742 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:52,345 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:52,736 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:54,194 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:56,260 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:57,710 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:58,414 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:58,707 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:10:59,223 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:00,585 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:01,038 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:02,834 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:06,282 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:08,700 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:08,905 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:09,246 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:09,312 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:10,288 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:11,426 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:13,703 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:14,236 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:16,000 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:18,726 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:19,848 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:21,743 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:22,019 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:22,632 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:23,151 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:23,153 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:24,203 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:25,821 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:29,289 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:29,323 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:33,148 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 25, in send_alert
+    print "eventId is:" + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:44,661 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:11:44,693 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:11:50,861 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:51,049 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:51,742 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:52,332 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:52,796 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:54,283 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:54,510 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:56,516 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:11:58,480 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:02,575 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:02,668 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:06,515 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:08,678 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:08,921 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:09,242 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:10,086 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:11,125 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:12,388 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:14,250 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:15,477 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:17,466 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:21,743 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:22,144 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:22,414 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:22,946 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:23,928 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:26,351 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:27,711 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:28,171 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:28,684 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:29,456 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:29,891 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:31,204 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:32,029 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:33,219 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:33,647 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:36,483 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:39,615 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 26, in send_alert
+    print 'eventId is:\n' + eventId + "\n"
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+2019-03-01 13:12:47,730 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:12:47,763 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:13:45,378 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:13:45,421 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:14:58,717 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:14:58,737 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:16:09,747 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:16:09,767 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:17:29,421 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:17:29,451 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:18:54,503 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:18:54,523 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:20:49,711 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:20:49,733 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:21:29,286 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:21:29,318 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:28:18,549 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:28:18,677 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:29:00,273 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:29:00,292 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:29:01,730 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Applications\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\urls.py", line 4, in <module>
+    from . import view
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 8
+    encrpted_str =
+                  ^
+SyntaxError: invalid syntax
+2019-03-01 13:29:03,851 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Applications\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\urls.py", line 4, in <module>
+    from . import view
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 8
+    encrpted_str =
+                  ^
+SyntaxError: invalid syntax
+2019-03-01 13:29:06,786 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Applications\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\urls.py", line 4, in <module>
+    from . import view
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 8
+    encrpted_str =
+                  ^
+SyntaxError: invalid syntax
+2019-03-01 13:29:07,503 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Applications\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\urls.py", line 4, in <module>
+    from . import view
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 8
+    encrpted_str =
+                  ^
+SyntaxError: invalid syntax
+2019-03-01 13:29:07,581 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Applications\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\urls.py", line 4, in <module>
+    from . import view
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 8
+    encrpted_str =
+                  ^
+SyntaxError: invalid syntax
+2019-03-01 13:29:08,130 [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Applications\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Applications\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Applications\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\urls.py", line 4, in <module>
+    from . import view
+  File "D:\JavaProjects\PrometheusOneAlert\PrometheusOneAlert\view.py", line 8
+    encrpted_str =
+                  ^
+SyntaxError: invalid syntax
+2019-03-01 13:29:38,756 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:29:38,776 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+2019-03-01 13:40:15,220 [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2019-03-01 13:40:39,404 [django.db.backends:89] [utils:execute] [DEBUG]- (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+2019-03-01 13:40:39,424 [django.db.backends:89] [utils:execute] [DEBUG]- (0.000) QUERY = u'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
