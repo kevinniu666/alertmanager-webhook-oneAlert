@@ -12,7 +12,7 @@ def send_alert(request):
     headers = {'Content-Type': 'application/json;charset=UTF-8'}
     data = json.loads(request.body)
     app = os.environ['APPLICATION_KEY']
-    # app = '5913da62-69b0-ac5a-d0ed-a591e05f800c'
+    #app = '5913da62-69b0-ac5a-d0ed-a591e05f800c'
     md5_key = str(data['alerts'][0]['startsAt']) + str(data['alerts'][0]['labels']['alertname'])
     eventId = str(encrpyt_string(md5_key))
     if data['status'] == 'firing':
@@ -29,7 +29,7 @@ def send_alert(request):
         priority = '1'
     else:
         priority = '3'
-    alarmContent = str(data['alerts'][0]['annotations'])
+    alarmContent = str(data['alerts'][0]['annotations']['message'])
     details = data['alerts'][0]
     contexts = data['alerts']
 
@@ -49,10 +49,12 @@ def send_alert(request):
     print json.dumps(content, indent=2)
     if len(str(app)) != 0:
        res = requests.request("post",oneAlertAPI,json=content,headers=headers)
+       print '-------------Response from oneAlert----------\n'
+       print(res.text)
+       return JsonResponse(res.text, safe=False)
     else:
-       print "oneAlert ApplicationKey is null!"
-    print '-------------Response from oneAlert----------\n'
-    print(res.text)
-    return JsonResponse(res.text,safe=False)
+       # print "oneAlert ApplicationKey is null!"
+       return HttpResponse("oneAlert ApplicationKey is null!")
+
 def healthz(request):
     return HttpResponse("success")

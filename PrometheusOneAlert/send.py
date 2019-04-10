@@ -35,7 +35,7 @@ content={
   "groupLabels": {},
   "groupKey": "{}:{}",
   "commonAnnotations": {
-    "description": "Test Prometheus / isn't working."
+    "message": "Test Prometheus / isn't working."
   },
   "alerts": [
     {
@@ -49,7 +49,7 @@ content={
       "generatorURL": "http://prometheus-k8s-0:9090/graph?g0.expr=vector%281%29&g0.tab=1",
       "startsAt": "2019-03-01T02:16:55.528170792Z",
       "annotations": {
-        "description": "Test Prometheus / isn't working."
+        "message": "Test Prometheus / isn't working."
       }
     }
   ],
@@ -63,25 +63,25 @@ content={
   }
 }
 content = {
-  "status": "resloved",
+  "status": "resolved",
   "groupLabels": {},
   "groupKey": "{}:{}",
   "commonAnnotations": {
-    "description": "Test Prometheus / isn't working."
+    "message": "Test Prometheus / isn't working."
   },
   "alerts": [
     {
-      "status": "resloved",
+      "status": "resolved",
       "labels": {
         "prometheus": "monitoring/k8s",
-        "severity": "warning",
+        "severity": "info",
         "alertname": "ExampleAlert"
       },
       "endsAt": "2019-03-01T03:01:55.528170792Z",
       "generatorURL": "http://prometheus-k8s-1:9090/graph?g0.expr=vector%280%29&g0.tab=1",
       "startsAt": "2019-03-01T02:16:55.528170792Z",
       "annotations": {
-        "description": "Test Prometheus / isn't working."
+        "message": "Test Prometheus / isn't working."
       }
     }
   ],
@@ -90,7 +90,7 @@ content = {
   "externalURL": "http://alertmanager-main-0:9093",
   "commonLabels": {
     "prometheus": "monitoring/k8s",
-    "severity": "warning",
+    "severity": "info",
     "alertname": "ExampleAlert"
   }
 }
@@ -99,6 +99,6 @@ url = "http://api.onealert.com/alert/api/event"
 headers = {'Content-Type': 'application/json;charset=UTF-8'}
 #res = requests.request("post","http://192.168.1.106/",json=content,headers=headers)
 # res = requests.request("post",url,json=content,headers=headers)
-res=requests.post('http://192.168.1.211:10000/',json=content)
+res=requests.post('http://192.168.1.106:8001/',json=content)
 print(res.status_code)
 print(res.text)
